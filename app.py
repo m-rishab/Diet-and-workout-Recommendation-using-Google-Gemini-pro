@@ -9,7 +9,7 @@ import langchain.globals as lcg  # Import langchain.globals
 lcg.set_verbose(True)  # Enable verbose mode if needed
 
 # Set up the model and prompt template
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyB0EZLaJdNmzVg-kfXMx2ljYNreoVxoudo'
+os.environ["GOOGLE_API_KEY"] = 'AIzaSyAuoLc2fLBrNLyIoQX8aJkYmu9B8ymsxHg'
 generation_config = {"temperature": 0.6, "top_p": 1, "top_k": 1, "max_output_tokens": 2048}
 model = GoogleGenerativeAI(model="gemini-pro", generation_config=generation_config)
 
