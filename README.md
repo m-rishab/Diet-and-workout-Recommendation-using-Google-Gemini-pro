@@ -40,7 +40,7 @@ Elevate your health journey with our Diet &amp; Workout Recommendation System on
 
 ## Live Project
 
-https://diet-and-workout-recommendation-using-app-gemini-pro.streamlit.app/
+[https://diet-and-workout-recommendation-using-app-gemini-pro.streamlit.app/](https://diet-and-workout-recommendation-using-app-gemini-pro.streamlit.app/)
 
 ## Setup and Usage
 
