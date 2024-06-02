@@ -87,12 +87,9 @@ st.markdown(
             text-align: center;
             color: #FFFFFF;
             margin-bottom: 20px;
-            background: linear-gradient(135deg, #88c34a 0%, #2c4b30 100%); /* Gradient from light to dark green */
+            background: rgba(0, 0, 0, 0.5);
             padding: 10px;
             border-radius: 10px;
-        }}
-        .title:hover {{
-            background: linear-gradient(135deg, #88c34a 10%, #2c4b30 90%); /* Adjusted gradient on hover */
         }}
         .subtitle {{
             font-size: 20px;
@@ -100,16 +97,13 @@ st.markdown(
             text-align: center;
             color: #FFFFFF;
             margin-bottom: 30px;
-            background: linear-gradient(135deg, #88c34a 0%, #2c4b30 100%); /* Gradient from light to dark green */
+            background: rgba(0, 0, 0, 0.5);
             padding: 10px;
             border-radius: 10px;
         }}
-        .subtitle:hover {{
-            background: linear-gradient(135deg, #88c34a 10%, #2c4b30 90%); /* Adjusted gradient on hover */
-        }}
         .form-label {{
             font-weight: bold;
-            color: #000000;
+            color: #FFFFFF;
         }}
         .form-input {{
             margin-bottom: 15px;
@@ -123,33 +117,26 @@ st.markdown(
             font-weight: bold;
             color: #FFFFFF;
             margin-top: 10px;
-            background: linear-gradient(135deg, #88c34a 0%, #2c4b30 100%); /* Gradient from light to dark green */
+            background: rgba(0, 0, 0, 0.5);
             padding: 10px;
             border-radius: 10px;
-        }}
-        .bmi:hover {{
-            background: linear-gradient(135deg, #88c34a 10%, #2c4b30 90%); /* Adjusted gradient on hover */
         }}
         .stButton button {{
             transition: background-color 0.3s, transform 0.3s;
         }}
         .stButton button:hover {{
-            background-color: #4CAF50; /* Darker green on hover */
+            background-color: #4CAF50;
             transform: scale(1.05);
         }}
         .form-container {{
-            background: linear-gradient(135deg, #d5ffb3 0%, #88c34a 100%); /* Gradient from light to dark green */
+            background: rgba(255, 255, 255, 0.8);
             padding: 20px;
             border-radius: 10px;
-        }}
-        .form-container:hover {{
-            background: linear-gradient(135deg, #d5ffb3 10%, #88c34a 90%); /* Adjusted gradient on hover */
         }}
     </style>
     """,
     unsafe_allow_html=True,
 )
-
 
 # Create a Streamlit web app
 st.markdown('<div class="title">Diet and Workout Recommendation Using Google Gemini-Pro</div>', unsafe_allow_html=True)
