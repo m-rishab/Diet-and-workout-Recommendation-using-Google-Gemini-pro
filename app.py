@@ -3,18 +3,19 @@ import pandas as pd
 import os
 from datetime import datetime, date
 import plotly.graph_objs as go
-from langchain.prompts import PromptTemplate
+from google.genai import types
+from langchain_core.prompts import PromptTemplate
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.runnables import RunnableLambda
-import langchain.globals as lcg
+from langchain_core import globals as lcg
 
 # Set verbose to True or False based on your requirements
 lcg.set_verbose(True)  # Enable verbose mode if needed
 
 # Set up the model and prompt template
 os.environ["GOOGLE_API_KEY"] = 'AIzaSyA9WppajNxtoEErBLRkF1pisIJ8Ajs2rfY'
-generation_config = {"temperature": 0.6, "top_p": 1, "top_k": 1, "max_output_tokens": 2048}
-model = GoogleGenerativeAI(model="gemini-pro", generation_config=generation_config)
+generation_config = types.GenerateContentConfig(temperature=0.6, top_p=1, top_k=1, max_output_tokens=2048)
+model = GoogleGenerativeAI(model="gemini-pro", temperature=0.6)
 
 prompt_template_resto = PromptTemplate(
     input_variables=['name', 'age', 'gender', 'weight', 'height', 'veg_or_nonveg', 'disease', 'region', 'state', 'allergics', 'foodtype'],
@@ -35,7 +36,10 @@ prompt_template_resto = PromptTemplate(
 )
 
 # Create a Runnable chain
-chain_resto = RunnableLambda(lambda inputs: prompt_template_resto.format(**inputs)) | model
+chain_resto = RunnableLambda(lambda inputs: model.invoke(
+    prompt_template_resto.format(**inputs),
+    generate_content_config=generation_config,
+))
 
 # Usage Tracking
 usage_data = []

@@ -1,5 +1,6 @@
-﻿streamlit
-langchain
-langchain_google_genai
-plotly
-pandas
+﻿streamlit==1.63.0
+langchain==1.4.0
+langchain_core==1.6.3
+langchain_google_genai==4.4.0
+plotly==7.0.0
+pandas==3.0.5
