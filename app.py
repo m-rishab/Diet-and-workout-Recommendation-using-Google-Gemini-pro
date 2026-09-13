@@ -147,7 +147,27 @@ st.markdown(
 st.markdown('<div class="title">Diet and Workout Recommendation Using Google Gemini-Pro</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Personalized recommendations based on your profile</div>', unsafe_allow_html=True)
 
+# Example data to auto-fill the form
+example_data = {
+    'name': 'Rahul Sharma',
+    'age': '28',
+    'gender': 'Male',
+    'weight': '72',
+    'height': '175',
+    'veg_or_nonveg': 'Veg',
+    'disease': 'None',
+    'region': 'North',
+    'state': 'Delhi',
+    'allergics': 'None',
+    'foodtype': 'Home-cooked',
+}
+
+def fill_example_data():
+    for key, value in example_data.items():
+        st.session_state[key] = value
+
 # User input form
+st.button('Fill Example Data', on_click=fill_example_data)
 with st.form(key='user_input_form', clear_on_submit=True):
     st.markdown('<div class="form-container">', unsafe_allow_html=True)
     st.markdown('<div class="form-label">Name:</div>', unsafe_allow_html=True)
