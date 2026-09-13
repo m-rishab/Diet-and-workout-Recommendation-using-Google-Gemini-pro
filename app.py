@@ -4,7 +4,7 @@ import os
 from datetime import datetime, date
 import plotly.graph_objs as go
 from langchain_core.prompts import PromptTemplate
-from langchain_google_genai import GoogleGenerativeAI
+from langchain_nvidia_ai_endpoints import ChatNVIDIA
 from langchain_core.runnables import RunnableLambda
 from langchain_core import globals as lcg
 
@@ -12,8 +12,8 @@ from langchain_core import globals as lcg
 lcg.set_verbose(True)  # Enable verbose mode if needed
 
 # Set up the model and prompt template
-os.environ["GOOGLE_API_KEY"] = 'AIzaSyA9WppajNxtoEErBLRkF1pisIJ8Ajs2rfY'
-model = GoogleGenerativeAI(model="gemini-pro")
+os.environ["NVIDIA_API_KEY"] = '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'
+model = ChatNVIDIA(model="nvidia/nemotron-3-super-120b-a12b", temperature=0.6, top_p=1, max_completion_tokens=2048)
 
 prompt_template_resto = PromptTemplate(
     input_variables=['name', 'age', 'gender', 'weight', 'height', 'veg_or_nonveg', 'disease', 'region', 'state', 'allergics', 'foodtype'],
@@ -36,11 +36,7 @@ prompt_template_resto = PromptTemplate(
 # Create a Runnable chain
 chain_resto = RunnableLambda(lambda inputs: model.invoke(
     prompt_template_resto.format(**inputs),
-    temperature=0.6,
-    top_p=1,
-    top_k=1,
-    max_output_tokens=2048,
-))
+).content)
 
 # Usage Tracking
 usage_data = []
@@ -144,7 +140,7 @@ st.markdown(
 )
 
 # Create a Streamlit web app
-st.markdown('<div class="title">Diet and Workout Recommendation Using Google Gemini-Pro</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">Diet and Workout Recommendation Using NVIDIA NIM</div>', unsafe_allow_html=True)
 st.markdown('<div class="subtitle">Personalized recommendations based on your profile</div>', unsafe_allow_html=True)
 
 # Example data to auto-fill the form
