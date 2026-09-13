@@ -1,5 +1,13 @@
+.web
+.states
+*.py[cod]
+assets/external/
+*.db
 venv/
 __pycache__/
 *.pyc
 .streamlit/
 .env
+.web/
+.states/
+reflex.lock
