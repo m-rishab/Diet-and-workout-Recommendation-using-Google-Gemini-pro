@@ -64,6 +64,7 @@ def _image_exists(category: str, n: int = 0) -> bool:
 def image_path(category: str, n: int = 0) -> str | None:
     """Absolute path to a local image, or None so the UI can show a placeholder."""
     p = os.path.join(ASSETS_IMAGES_DIR, f"{category}_{n}.jpg")
+    return p if os.path.isfile(p) else None
     
 
 
