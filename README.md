@@ -1,5 +1,7 @@
 # Diet-and-workout-Recommendation
 
+[Live](https://m-rishab-diet-and-workout-recommendatio-appstreamlit-app-zpz7af.streamlit.app/)
+
 > **Note:** The repository name "(using-Google-Gemini-pro)" is **legacy** — this
 > app is powered by **NVIDIA NIM** (Nemotron-3-Super-120B via LangChain), not
 > Google Gemini.
