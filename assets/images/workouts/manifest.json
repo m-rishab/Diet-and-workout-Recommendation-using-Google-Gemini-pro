@@ -1,0 +1,34 @@
+{
+  "dumbbell-rows": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "glute-bridge": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "push-ups": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "squats": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "plank": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "lunges": {
+    "ext": "png",
+    "generated": true
+  },
+  "jumping-jacks": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "calf-raises": {
+    "ext": "png",
+    "generated": true
+  }
+}

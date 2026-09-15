@@ -1,19 +1,25 @@
 # Diet-and-workout-Recommendation-using-Google-Gemini-pro
 
+> **Note:** The repository name "(using-Google-Gemini-pro)" is **legacy** — this
+> app is powered by **NVIDIA NIM** (Nemotron-3-Super-120B via LangChain), not
+> Google Gemini.
+
 Elevate your health journey with our Diet &amp; Workout Recommendation System powered by **NVIDIA NIM** (Nemotron 120B)! Personalized suggestions based on age, gender, height, weight, region, dietary preferences, allergies, and health conditions. Optimize your well-being effortlessly!
 
 ## Key Features
 
 - **Personalized recommendations:** Generates diet and workout plans customized to individual needs and preferences.
 - **AI-powered insights:** Utilizes NVIDIA NIM's Nemotron-3-Super-120B language model to provide comprehensive and informative recommendations.
-- **Modern UI:** Built with Reflex (Python → React) for a fast, interactive, and responsive interface.
-- **Interactive charts:** 3D BMI visualization and API usage tracking via Plotly.
+- **Modern UI:** Built with Streamlit for a fast, interactive, and responsive interface.
+- **Interactive charts:** BMI gauge, macro targets and BMI-over-time trend via Plotly.
+- **Keyless images:** Real dish/exercise photos are searched at runtime through DuckDuckGo (primary) with Bing and Wikimedia Commons as fallbacks — no image API keys needed. Each result is relevance-scored (prepared-dish vs raw ingredient, protein-contradiction filter) and only downloaded after validation, then cached locally in `assets/images/`. When nothing trustworthy is found the app shows **no image** rather than a wrong one.
 
 ## Technologies Used
 
-- **Reflex:** Python framework for building reactive web apps (React frontend, Python backend).
+- **Streamlit:** Python framework for building interactive web apps.
 - **NVIDIA NIM:** Hosted inference for NVIDIA's Nemotron large language models (no local GPU needed).
 - **Langchain:** Library for standardized interaction with the `ChatNVIDIA` model.
+- **SQLite:** Local persistence for saved plans and BMI history.
 
 ## Flowchart
 
@@ -29,7 +35,7 @@ Elevate your health journey with our Diet &amp; Workout Recommendation System po
 
 **--> Parse and format response** - Extract relevant information: - Food suggestions - Workout - Fitness tips
 
-**--> Present recommendations to user** - Display information in the Reflex interface
+**--> Present recommendations to user** - Display information in the Streamlit interface
 
 **--> (Optional) Offer additional functionalities** - Adjust preferences - Refine recommendations - Track progress - Access other diet/workout features
 
@@ -46,21 +52,27 @@ Elevate your health journey with our Diet &amp; Workout Recommendation System po
    pip install -r requirements.txt
    ```
 
-3. Run the Reflex app:
+3. Create `.env` from the template and add your key (never commit `.env`):
 
    ```bash
-   reflex run
+   cp .env.example .env   # then edit .env with your NVAPI_KEY
    ```
 
-   Open http://localhost:3000 in your browser.
+4. Run the Streamlit app (dish/workout images are resolved automatically and
+   cached under `assets/images/` — no manual download step needed):
 
-## Deployment
+   ```bash
+   streamlit run app/streamlit_app.py
+   ```
 
-Deploy to Reflex Cloud:
+   Open the URL shown in the terminal (default http://localhost:8501).
 
-```bash
-reflex login
-reflex deploy
-```
+## Project structure
 
-The NVIDIA API key must be provided via the `NVIDIA_API_KEY` environment variable (the app falls back to the key configured in `app/app.py`).
+- `app/backend.py` — all logic: prompts, strict-JSON parsing, plan enrichment with
+  keyless fallback catalogs, BMR/TDEE math, restaurant fallbacks, SQLite persistence,
+  PDF export, and the image pipeline (query builders, DuckDuckGo/Bing/Wikimedia search,
+  relevance scoring with contradiction filtering, download + validation, local caching).
+- `app/streamlit_app.py` — the Streamlit UI (sidebar form, plan tabs, coach chat,
+  insights, export).
+- `.streamlit/config.toml` — dark theme.

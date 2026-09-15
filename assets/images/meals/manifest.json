@@ -1,0 +1,159 @@
+{
+  "idli-sambar": {
+    "name": "Idli Sambar",
+    "normalized": "idli sambar",
+    "source": "wikimedia",
+    "source_title": "File:Idli, sambar and coconut chutney.jpg",
+    "score": 20,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Idli%2C_sambar_and_coconut_chutney.jpg/960px-Idli%2C_sambar_and_coconut_chutney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "chicken-biryani": {
+    "name": "Chicken Biryani",
+    "normalized": "chicken biryani",
+    "source": "wikimedia",
+    "source_title": "File:Bengali style chicken biryani, Kolkata - West Bengal - DSC 0020.jpg",
+    "score": 20,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Bengali_style_chicken_biryani%2C_Kolkata_-_West_Bengal_-_DSC_0020.jpg/960px-Bengali_style_chicken_biryani%2C_Kolkata_-_West_Bengal_-_DSC_0020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "paneer-tikka-salad": {
+    "name": "Paneer Tikka + Salad",
+    "normalized": "paneer tikka salad",
+    "source": "wikimedia",
+    "source_title": "File:Paneer Tikka in Food.jpg",
+    "score": 10,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Paneer_Tikka_in_Food.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ext": "jpg"
+  },
+  "dal-rice": {
+    "name": "Dal Rice",
+    "normalized": "dal rice",
+    "source": "wikimedia",
+    "source_title": "File:Dal rice and cutlet.JPG",
+    "score": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Dal_rice_and_cutlet.JPG/960px-Dal_rice_and_cutlet.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "poha": {
+    "name": "Poha",
+    "normalized": "poha",
+    "source": "wikimedia",
+    "source_title": "File:Aloo Poha with Sing.jpg",
+    "score": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Aloo_Poha_with_Sing.jpg/960px-Aloo_Poha_with_Sing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "greek-yogurt-fruit": {
+    "name": "Greek Yogurt + Fruit",
+    "normalized": "greek yogurt fruit",
+    "source": "wikimedia",
+    "source_title": "File:Fruits mix with Greek yogurt and cashew toppings.jpg",
+    "score": 10,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Fruits_mix_with_Greek_yogurt_and_cashew_toppings.jpg/960px-Fruits_mix_with_Greek_yogurt_and_cashew_toppings.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "idli-sambar-2-pc": {
+    "name": "Idli sambar (2 pc)",
+    "normalized": "idli sambar",
+    "source": "wikimedia",
+    "source_title": "File:IDLI SAMBAR AND CHUTNEY 02.jpg",
+    "score": 20,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/IDLI_SAMBAR_AND_CHUTNEY_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "ext": "jpg"
+  },
+  "masala-oats": {
+    "name": "Masala oats",
+    "normalized": "masala oat",
+    "source": "wikimedia",
+    "source_title": "File:Homemade masala oats India.jpg",
+    "score": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Homemade_masala_oats_India.jpg/960px-Homemade_masala_oats_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "paneer-sandwich": {
+    "name": "Paneer sandwich",
+    "normalized": "paneer sandwich",
+    "source": "wikimedia",
+    "source_title": "File:Paneer Sandwich.jpg",
+    "score": 20,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Paneer_Sandwich.jpg/960px-Paneer_Sandwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "oats": {
+    "name": "Oats",
+    "normalized": "oat",
+    "source": "wikimedia",
+    "source_title": "File:Oat (PSF).png",
+    "score": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Oat_%28PSF%29.png/960px-Oat_%28PSF%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "png"
+  },
+  "dhokla": {
+    "name": "Dhokla",
+    "normalized": "dhokla",
+    "source": "wikimedia",
+    "source_title": "File:Authentic Gujrati Dhokla, Daman, Daman and Diu, IMG 20181019 085624211.jpg",
+    "score": 13,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Authentic_Gujrati_Dhokla%2C_Daman%2C_Daman_and_Diu%2C_IMG_20181019_085624211.jpg/960px-Authentic_Gujrati_Dhokla%2C_Daman%2C_Daman_and_Diu%2C_IMG_20181019_085624211.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "egg-curry": {
+    "name": "Egg curry",
+    "normalized": "egg curry",
+    "source": "wikimedia",
+    "source_title": "File:Egg curry ( ಕೆತ್ತಿ ಗಸಿ).jpg",
+    "score": 15,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Egg_curry_%28_%E0%B2%95%E0%B3%86%E0%B2%A4%E0%B3%8D%E0%B2%A4%E0%B2%BF_%E0%B2%97%E0%B2%B8%E0%B2%BF%29.jpg/960px-Egg_curry_%28_%E0%B2%95%E0%B3%86%E0%B2%A4%E0%B3%8D%E0%B2%A4%E0%B2%BF_%E0%B2%97%E0%B2%B8%E0%B2%BF%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "paneer-tikka": {
+    "name": "Paneer Tikka",
+    "normalized": "paneer tikka",
+    "source": "wikimedia",
+    "source_title": "File:Barbequed Paneer Tikka.jpg",
+    "score": 20,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Barbequed_Paneer_Tikka.jpg/960px-Barbequed_Paneer_Tikka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "ext": "jpg"
+  },
+  "boiled-eggs-with-toast": {
+    "ext": "webp",
+    "generated": true
+  },
+  "roti-rajma": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "vegetable-khichdi-curd": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "moong-dal-chilla": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "dal-rice-salad": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "poha-with-peanuts": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "dal-soup-roti": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "stir-fried-tofu-quinoa": {
+    "ext": "png",
+    "generated": true
+  },
+  "grilled-paneer-veggies": {
+    "ext": "jpg",
+    "generated": true
+  },
+  "mushroom-curry-rice": {
+    "ext": "jpg",
+    "generated": true
+  }
+}

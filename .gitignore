@@ -1,13 +1,16 @@
-.web
-.states
 *.py[cod]
 assets/external/
 *.db
+nutrifit.db
 venv/
 __pycache__/
-*.pyc
 .streamlit/
 .env
-.web/
-.states/
-reflex.lock
+
+# Streamlit
+.streamlit/
+.cache/
+
+# misc
+.DS_Store
+.ipynb_checkpoints/

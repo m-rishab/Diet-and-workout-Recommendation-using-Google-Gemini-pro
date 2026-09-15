@@ -1,6 +1,6 @@
-﻿reflex==0.9.11
+﻿streamlit==1.49.0
 langchain_core==1.6.3
 langchain-nvidia-ai-endpoints==1.4.3
 plotly==7.0.0
-pandas==2.3.2
-reflex==0.9.11
+python-dotenv==1.2.3
+fpdf2==2.8.8

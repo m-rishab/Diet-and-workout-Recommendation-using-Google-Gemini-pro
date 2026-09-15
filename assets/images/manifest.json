@@ -1,0 +1,174 @@
+{
+  "generated_at": "2026-09-14T15:38:36.638109+00:00",
+  "keyless": true,
+  "categories": {
+    "hero": {
+      "images": [
+        "/images/hero_0.jpg",
+        "/images/hero_1.jpg",
+        "/images/hero_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/hero_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/hero_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/hero_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "breakfast": {
+      "images": [
+        "/images/breakfast_0.jpg",
+        "/images/breakfast_1.jpg",
+        "/images/breakfast_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/breakfast_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/breakfast_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/breakfast_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "lunch": {
+      "images": [
+        "/images/lunch_0.jpg",
+        "/images/lunch_1.jpg",
+        "/images/lunch_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/lunch_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/lunch_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/lunch_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "dinner": {
+      "images": [
+        "/images/dinner_0.jpg",
+        "/images/dinner_1.jpg",
+        "/images/dinner_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/dinner_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/dinner_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/dinner_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "restaurant": {
+      "images": [
+        "/images/restaurant_0.jpg",
+        "/images/restaurant_1.jpg",
+        "/images/restaurant_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/restaurant_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/restaurant_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/restaurant_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "workout": {
+      "images": [
+        "/images/workout_0.jpg",
+        "/images/workout_1.jpg",
+        "/images/workout_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/workout_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/workout_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/workout_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "yoga": {
+      "images": [
+        "/images/yoga_0.jpg",
+        "/images/yoga_1.jpg",
+        "/images/yoga_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/yoga_0.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/yoga_1.jpg",
+          "source": "curated-pexels"
+        },
+        {
+          "file": "/images/yoga_2.jpg",
+          "source": "curated-pexels"
+        }
+      ]
+    },
+    "cardio": {
+      "images": [
+        "/images/cardio_0.jpg",
+        "/images/cardio_1.jpg",
+        "/images/cardio_2.jpg"
+      ],
+      "credits": [
+        {
+          "file": "/images/cardio_0.jpg",
+          "source": "picsum"
+        },
+        {
+          "file": "/images/cardio_1.jpg",
+          "source": "picsum"
+        },
+        {
+          "file": "/images/cardio_2.jpg",
+          "source": "picsum"
+        }
+      ]
+    }
+  }
+}
