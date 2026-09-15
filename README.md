@@ -1,4 +1,4 @@
-# Diet-and-workout-Recommendation-using-Google-Gemini-pro
+# Diet-and-workout-Recommendation
 
 > **Note:** The repository name "(using-Google-Gemini-pro)" is **legacy** — this
 > app is powered by **NVIDIA NIM** (Nemotron-3-Super-120B via LangChain), not
